@@ -110,7 +110,7 @@ list( значение, значение, значение, ... )
  ```
 
  ```bash
-   python converter.py config2toml
+   python converter.py config2.toml
    ```
 
  ```bash
