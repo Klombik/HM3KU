@@ -204,16 +204,7 @@ python converter.py config3.toml
 
 ### Результат в терминале
 
-```config1.toml
-server_host = localhost
-server_port = 8080
-static_files_dir = /var/www/static
-database_url = postgresql://user:password@localhost/dbname
-debug_mode = True
-max_connections = 100
-session_timeout = 3600
-allowed_origins = list(http://localhost:3000, https://example.com)
-```
+![art](https://github.com/Klombik/HM3KU/blob/9439648a5911e16beda7fe60d8e7dde850903b4f/p3.png)
 
 
 ```config2.toml
