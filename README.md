@@ -204,21 +204,14 @@ python converter.py config3.toml
 
 ### Результат в терминале
 
+config1.toml
 ![art](https://github.com/Klombik/HM3KU/blob/9439648a5911e16beda7fe60d8e7dde850903b4f/p3.png)
 
-
+config2.toml
 ![art](https://github.com/Klombik/HM3KU/blob/2fad633e1524f068fdf4a97fce8695a9740deef7/p32.png)
 
-
-```config3.toml
-task_queue = redis://localhost:6379/0
-worker_count = 4
-max_task_retries = 3
-task_timeout = 300
-result_backend = db+postgresql://user:password@localhost/dbname
-log_level = INFO
-log_file = /var/log/task_manager.log
-```
+config3.toml
+![art](https://github.com/Klombik/HM3KU/blob/fd2a8f57c7b557e113990d739f36dfc605990f56/p33.png)
 
 ---
 
