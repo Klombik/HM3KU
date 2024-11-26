@@ -105,9 +105,9 @@ list( значение, значение, значение, ... )
 
 2. Запустите скрипт `converter.py`, указав путь к вашему TOML-файлу:
 
-   ```bash
-   python converter.py config1.toml
-   ```
+ ```bash
+ python converter.py config1.toml
+ ```
 
  ```bash
    python converter.py config2toml
