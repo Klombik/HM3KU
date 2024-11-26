@@ -207,17 +207,7 @@ python converter.py config3.toml
 ![art](https://github.com/Klombik/HM3KU/blob/9439648a5911e16beda7fe60d8e7dde850903b4f/p3.png)
 
 
-```config2.toml
-monitoring_interval = 60
-alert_threshold = 90
-log_file = /var/log/monitoring.log
-email_notifications = True
-notification_email = admin@example.com
-smtp_server = smtp.example.com
-smtp_port = 587
-smtp_user = monitoring@example.com
-smtp_password = securepassword
-```
+![art](https://github.com/Klombik/HM3KU/blob/2fad633e1524f068fdf4a97fce8695a9740deef7/p32.png)
 
 
 ```config3.toml
