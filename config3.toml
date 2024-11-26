@@ -1,0 +1,8 @@
+# task_manager_config.toml
+task_queue = "redis://localhost:6379/0"
+worker_count = 4
+max_task_retries = 3
+task_timeout = 300
+result_backend = "db+postgresql://user:password@localhost/dbname"
+log_level = "INFO"
+log_file = "/var/log/task_manager.log"

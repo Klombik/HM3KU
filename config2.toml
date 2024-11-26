@@ -1,0 +1,10 @@
+# monitoring_config.toml
+monitoring_interval = 60
+alert_threshold = 90
+log_file = "/var/log/monitoring.log"
+email_notifications = true
+notification_email = "admin@example.com"
+smtp_server = "smtp.example.com"
+smtp_port = 587
+smtp_user = "monitoring@example.com"
+smtp_password = "securepassword"

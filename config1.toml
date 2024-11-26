@@ -1,0 +1,9 @@
+# web_app_config.toml
+server_host = "localhost"
+server_port = 8080
+static_files_dir = "/var/www/static"
+database_url = "postgresql://user:password@localhost/dbname"
+debug_mode = true
+max_connections = 100
+session_timeout = 3600
+allowed_origins = ["http://localhost:3000", "https://example.com"]
